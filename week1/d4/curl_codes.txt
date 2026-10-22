@@ -1,0 +1,20 @@
+Command	Code
+http://github.com	301. The Location header points to https://github.com/
+/users/tonyy-shin	200
+/users/zz-no-such-user-zz	404
+/user with no token	401. GitHub doesn’t know who you are
+Same URL with If-None-Match: <etag>	304. Nothing changed since you last asked
+
+
+The 10 coach-site scenarios
+#	Case	Code	Why
+1	Review created	201	Something new now exists
+2	Coach 9999 doesn’t exist	404	
+3	rating: 7, valid JSON	422	Well-formed, but the value is invalid
+4	Broken JSON	400	Malformed request*
+5	Not logged in, deletes a review	401	Not authenticated
+6	Logged in, deletes someone else’s review	403	Authenticated but not allowed
+7	Second review for the same coach	409	Conflicts with existing state
+8	Review deleted	204	Success, no body
+9	300 requests per minute	429	Too many requests
+10	Database down for maintenance	503	Temporarily unavailable, not a bug
