@@ -1,0 +1,75 @@
+id,first_name,second_name,price,form,points_per_game,total_points,clean_sheets_per_90,goals_conceded_per_90
+1,David,Raya Martín,6.2,6.0,6.0,54,0.67,0.56
+2,Kepa,Arrizabalaga Revuelta,4.9,0.0,0.0,0,0,0
+3,Illan,Meslier,4.9,0.0,0.0,0,0,0
+29,Marco,Bizot,4.5,0.0,1.0,1,0.0,4.0
+597,Zion,Suzuki,5.0,3.8,3.9,31,0.25,1.12
+667,James,Wright,4.0,0.0,0.0,0,0,0
+57,Đorđe,Petrović,4.5,4.8,3.1,28,0.33,1.44
+58,Fraser,Forster,4.0,0.0,0.0,0,0,0
+59,Will,Dennis,4.0,0.0,0.0,0,0,0
+615,Michele,Di Gregorio,4.5,0.0,0.0,0,0,0
+82,Caoimhín,Kelleher,5.0,3.2,3.7,33,0.33,1.0
+83,Hákon Rafn,Valdimarsson,4.4,0.0,0.0,0,0,0
+661,Ellery,Balcombe,4.0,0.0,0.0,0,0,0
+109,Bart,Verbruggen,4.6,7.0,5.7,51,0.67,0.78
+111,Jason,Steele,4.0,0.0,0.0,0,0,0
+28,Emiliano,Martínez Romero,4.9,2.8,3.3,20,0.17,1.89
+140,Robert,Lynch Sánchez,4.9,0.0,2.0,2,0.0,2.0
+141,Filip,Jörgensen,5.0,0.0,0.0,0,0,0
+560,Mike,Penders,4.4,1.8,2.3,7,0.46,0.92
+669,Teddy,Sharman-Lowe,4.0,0.0,0.0,0,0,0
+110,Carl,Rushworth,4.5,2.0,2.7,24,0.11,1.78
+171,Oliver,Dovin,4.0,0.0,0.0,0,0,0
+172,Ben,Wilson,4.4,0.0,0.0,0,0,0
+623,Dan,Bentley,4.0,0.0,0.0,0,0,0
+198,Dean,Henderson,4.9,0.8,2.0,8,0.0,2.5
+199,Walter,Benítez,4.5,1.2,2.6,13,0.2,2.2
+555,Remi,Matthews,4.0,0.0,0.0,0,0,0
+226,Jordan,Pickford,5.5,2.8,4.0,36,0.44,1.0
+227,Mark,Travers,5.0,0.0,0.0,0,0,0
+228,Tom,King,4.5,0.0,0.0,0,0,0
+250,Bernd,Leno,4.5,4.5,4.0,36,0.33,1.22
+251,Benjamin,Lecomte,4.0,0.0,0.0,0,0,0
+252,Alfie,McNally,4.0,0.0,0.0,0,0,0
+273,Dillon,Phillips,4.0,0.0,0.0,0,0,0
+274,Jack,Butland,4.4,0.0,0.0,0,0,0
+275,Harvey,Cartwright,4.0,0.0,0.0,0,0,0
+276,Thimothée,Lo-Tutala,4.0,0.0,0.0,0,0,0
+572,Konstantinos,Tzolakis,4.7,2.2,4.8,43,0.33,1.11
+300,Christian,Walton,4.4,2.0,2.0,10,0.0,1.6
+301,Alex,Palmer,4.0,0.0,0.0,0,0,0
+302,David,Button,4.0,0.0,0.0,0,0,0
+554,Kayne,van Oevelen,4.5,0.0,0.0,0,0,0
+564,Kjell,Scherpen,4.4,0.0,1.8,7,0.0,2.5
+326,Lucas Estella,Perri,4.5,0.0,0.0,0,0,0
+385,James,Trafford,5.0,4.0,4.9,44,0.33,0.89
+625,Alex,Cairns,4.0,0.0,0.0,0,0,0
+629,Michael,Zetterer,4.0,0.0,0.0,0,0,0
+350,Alisson,Becker,5.5,2.8,4.2,38,0.44,1.0
+351,Giorgi,Mamardashvili,4.8,0.0,0.0,0,0,0
+352,Freddie,Woodman,4.0,0.0,0.0,0,0,0
+353,Armin,Pecsi,4.0,0.0,0.0,0,0,0
+354,Vitezslav,Jaros,4.0,0.0,0.0,0,0,0
+355,Harvey,Davies,4.0,0.0,0.0,0,0,0
+384,Gianluigi,Donnarumma,5.5,3.2,3.6,32,0.33,1.11
+386,Marcus,Bettinelli,4.4,0.0,0.0,0,0,0
+587,Gerónimo,Rulli,4.9,0.0,0.0,0,0,0
+325,Karl,Darlow,4.5,0.0,0.0,0,0,0
+412,Senne,Lammens,4.8,2.2,2.2,20,0.0,1.67
+413,Altay,Bayındır,4.5,0.0,0.0,0,0,0
+414,Tom,Heaton,4.0,0.0,0.0,0,0,0
+442,Nick,Pope,4.9,0.0,0.0,0,0,0
+443,Mark,Gillespie,4.5,0.0,0.0,0,0,0
+444,Ewen,Jaouen,4.4,0.0,0.0,0,0,0
+567,Lukás,Hornícek,5.0,3.2,3.0,27,0.22,1.67
+467,Matz,Sels,5.0,1.8,2.3,21,0.11,1.33
+468,John Victor,Maciel Furtado,4.4,0.0,0.0,0,0,0
+590,Steven,Benda,4.5,0.0,0.0,0,0,0
+494,Guglielmo,Vicario,4.5,0.0,0.0,0,0,0
+495,Brandon,Austin,4.0,0.0,0.0,0,0,0
+496,Antonín,Kinský,4.4,5.0,4.2,38,0.44,1.11
+497,Martin,Dubravka,4.0,0.0,0.0,0,0,0
+529,Robin,Roefs,4.9,3.2,2.7,24,0.22,1.89
+530,Anthony,Patterson,4.0,0.0,0.0,0,0,0
+531,Melker,Ellborg,4.4,0.0,0.0,0,0,0
