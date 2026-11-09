@@ -1,0 +1,114 @@
+openapi: 3.0.3
+info:
+  title: RateMyCoach API
+  version: 1.0.0
+
+paths:
+  /v1/coaches/{coach_id}:
+    get:
+      summary: Get one coach
+      parameters:
+        - name: coach_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        "200":
+          description: The coach
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Coach"
+        # TODO 1: add a "404" response that uses the Error schema
+        "404":
+          description: Coach not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+  /v1/coaches/{coach_id}/reviews:
+    post:
+      summary: Create a review for a coach
+      parameters:
+        - name: coach_id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/ReviewCreate"
+      responses:
+        "201":
+          description: The review
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Review"
+        "422":
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Error"
+
+components:
+  schemas:
+    Coach:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        sport:
+          type: string
+        school_id:
+          type: integer
+        avg_rating:
+          type: number
+          readOnly: true
+
+    ReviewCreate:
+      type: object
+      required: [rating, text]
+      properties:
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+        text:
+          type: string
+
+    Review:
+      type: object
+      properties:
+        id:
+          type: integer
+        coach_id:
+          type: integer
+        rating:
+          type: integer
+          minimum: 1
+          maximum: 5
+        text:
+          type: string
+        created_at:
+          type: string
+          format: date-time
+          readOnly: true
+    Error:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+            message:
+              type: string
